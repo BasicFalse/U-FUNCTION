@@ -29,7 +29,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        UFUNCTION.LOGGER.info("Registering Mod Blocks for " + UFUNCTION.MOD_ID);
+        UFUNCTION.LOGGER.info("Registering " + UFUNCTION.MOD_ID + " Blocks...");
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.BLOCK_OF_STATIC);

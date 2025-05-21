@@ -13,7 +13,7 @@ public class UFUNCTION implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		//ModItems.registerModItems();
+		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
 }
