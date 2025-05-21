@@ -5,13 +5,13 @@
 	"name": "U-FUNCTION",
 	"description": "Universe : Shard = MINECRAFT",
 	"authors": [
-		"Me!"
+		"^!LS%"
 	],
 	"contact": {
 		"homepage": "https://www.youtube.com/@BasicFalse",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/BasicFalse/U-FUNCTION"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/ufunction/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.inverseglass.ufunction.UFUNCTIONDataGenerator"
+		],
+		"client": [
+			"com.inverseglass.ufunction.UFUNCTIONClient"
 		]
 	},
 	"mixins": [
