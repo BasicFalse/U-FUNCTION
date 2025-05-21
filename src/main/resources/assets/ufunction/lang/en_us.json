@@ -1,5 +1,7 @@
 {
   "item.ufunction.strange_geometry": "Strange Geometry",
 
-  "block.ufunction.block_of_static": "Static Block"
+  "block.ufunction.block_of_static": "Static Block",
+
+  "itemgroup.ufunction.ufunction_item_group": "U-FUNCTION"
 }

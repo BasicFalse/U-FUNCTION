@@ -1,6 +1,7 @@
 package com.inverseglass.ufunction;
 
 import com.inverseglass.ufunction.block.ModBlocks;
+import com.inverseglass.ufunction.item.ModItemGroups;
 import com.inverseglass.ufunction.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,8 @@ public class UFUNCTION implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
