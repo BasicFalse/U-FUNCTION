@@ -1,3 +1,5 @@
 {
-  "item.ufunction.strange_geometry": "Strange Geometry"
+  "item.ufunction.strange_geometry": "Strange Geometry",
+
+  "block.ufunction.block_of_static": "Static Block"
 }
