@@ -1,7 +1,12 @@
 {
   "item.ufunction.strange_geometry": "Strange Geometry",
+  "item.ufunction.argentite_ore_item": "Pure Argentite",
+  "item.ufunction.argentite_shaped": "Shaped Argentite",
+
+  "item.ufunction.strange_icecream": "Strange Icecream",
 
   "block.ufunction.block_of_static": "Static Block",
+  "block.ufunction.argentite_ore_block": "Argentite Ore",
 
   "itemgroup.ufunction.ufunction_item_group": "U-FUNCTION"
 }

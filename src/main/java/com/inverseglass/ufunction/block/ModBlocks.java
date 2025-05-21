@@ -13,10 +13,22 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+
+    ///////////////////////////////////////////////////////////////////////
+    /// Blocks
+
     public static final Block BLOCK_OF_STATIC = registerBlock("block_of_static",
             new Block(AbstractBlock.Settings.create().strength(10f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
+    public static final Block ARGENTITE_ORE_BLOCK = registerBlock("argentite_ore_block",
+            new Block(AbstractBlock.Settings.create().strength(10f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+
+
+    ////////////////////////////////////////////////////////////////////////
+    /// assembly
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -31,8 +43,8 @@ public class ModBlocks {
     public static void registerModBlocks() {
         UFUNCTION.LOGGER.info("Registering " + UFUNCTION.MOD_ID + " Blocks...");
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.BLOCK_OF_STATIC);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
+            entries.add(ModBlocks.ARGENTITE_ORE_BLOCK);
         });
     }
 }

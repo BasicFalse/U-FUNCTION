@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 0.6,
+  "group": "argentite_ore",
+  "ingredient": {
+    "item": "ufunction:argentite_shaped"
+  },
+  "result": {
+    "id": "ufunction:argentite_ore_item"
+  }
+}

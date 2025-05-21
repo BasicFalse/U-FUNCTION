@@ -11,6 +11,11 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
+
+    /////////////////////////////////////////////////////////////////
+    /// Item Groups
+
+
     public static final ItemGroup UFUNCTION_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(UFUNCTION.MOD_ID, "u-function_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.STRANGE_GEOMETRY))
@@ -18,6 +23,10 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.STRANGE_GEOMETRY);
                         entries.add(ModBlocks.BLOCK_OF_STATIC);
+                        entries.add(ModBlocks.ARGENTITE_ORE_BLOCK);
+                        entries.add(ModItems.ARGENTITE_ORE_ITEM);
+                        entries.add(ModItems.ARGENTITE_SHAPED);
+                        entries.add(ModItems.STRANGE_ICECREAM);
                     })
                     .build());
 
