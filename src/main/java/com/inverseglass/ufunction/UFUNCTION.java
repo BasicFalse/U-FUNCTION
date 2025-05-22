@@ -3,6 +3,7 @@ package com.inverseglass.ufunction;
 import com.inverseglass.ufunction.block.ModBlocks;
 import com.inverseglass.ufunction.item.ModItemGroups;
 import com.inverseglass.ufunction.item.ModItems;
+import com.inverseglass.ufunction.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,5 +19,7 @@ public class UFUNCTION implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModWorldGeneration.generateModWorldGen();
 	}
 }
