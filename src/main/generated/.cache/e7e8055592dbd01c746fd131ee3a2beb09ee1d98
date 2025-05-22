@@ -1,0 +1,5 @@
+// 1.21	2025-05-23T11:16:46.7520931	U-FUNCTION/Recipes
+ba8d5890231b0d344a7de3b082704e013e8507d4 data\ufunction\recipe\argentite_shaped_from_smelting_argentite_ore_item.json
+148d0443f8cb32dee1ea8fdf8f9d9fec7e82d270 data\ufunction\recipe\argentite_ore_item_from_blasting_argentite_shaped.json
+0f6b766adf64611e3aec8fba8e8eb402a997e682 data\ufunction\advancement\recipes\misc\argentite_shaped_from_smelting_argentite_ore_item.json
+53f54cd0bf2161c4698e095395beace0132b6074 data\ufunction\advancement\recipes\misc\argentite_ore_item_from_blasting_argentite_shaped.json

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 800,
+  "experience": 0.5,
+  "group": "argentite",
+  "ingredient": {
+    "item": "ufunction:argentite_ore_item"
+  },
+  "result": {
+    "id": "ufunction:argentite_shaped"
+  }
+}

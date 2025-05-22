@@ -26,7 +26,7 @@ public class ModPlacedFeatures {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, ARGENTITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ARGENTITE_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(1,
+                ModOrePlacement.modifiersWithCount(5,
                         HeightRangePlacementModifier.uniform(YOffset.fixed(10),YOffset.fixed(30))));
 
     }

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_argentite_shaped": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ufunction:argentite_shaped"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:argentite_ore_item_from_blasting_argentite_shaped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_argentite_shaped"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:argentite_ore_item_from_blasting_argentite_shaped"
+    ]
+  }
+}

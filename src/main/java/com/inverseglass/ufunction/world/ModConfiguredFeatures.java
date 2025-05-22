@@ -25,7 +25,7 @@ public class ModConfiguredFeatures {
         List<OreFeatureConfig.Target> overworldArgentiteOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.ARGENTITE_ORE_BLOCK.getDefaultState()));
 
-        register(context, ARGENTITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldArgentiteOres, 1));
+        register(context, ARGENTITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldArgentiteOres, 5));
     }
 
 
